@@ -1,0 +1,30 @@
+name: Report a voice / 举报声音
+description: Report copyright, consent, safety, or broken audio problems.
+labels: ["voice-report"]
+body:
+  - type: input
+    id: issue
+    attributes:
+      label: Voice Issue URL
+      description: Exact Issue link for the sound being reported.
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - Copyright or license
+        - Voice identity or consent
+        - Private or harmful content
+        - Broken or invalid audio
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Explain the issue and include public evidence where possible. Do not post sensitive documents or private contact details.
+    validations:
+      required: true

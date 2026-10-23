@@ -1,0 +1,56 @@
+name: Submit a voice / 投稿声音
+description: Share a PCM WAV voice of 3 seconds or less with clear reuse rights.
+labels: ["voice-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share one original or authorized sound per Issue. Browsing is public; posting requires a GitHub account.
+        社区音频须为标准 PCM WAV，实际时长 ≤ 3 秒、大小 ≤ 5 MiB。分类自由，不预设场景。
+        Drag your WAV into the Audio field, then keep only its GitHub attachment link. Do not upload a ZIP, MP3, external URL, or private information.
+        Publication in the catalog requires maintainer review. Editing reviewed metadata or the audio requires a fresh review.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does it sound like, and when might someone use it? / 描述声音和用途。
+      placeholder: A gentle original chime for a finished task.
+    validations:
+      required: true
+  - type: textarea
+    id: audio
+    attributes:
+      label: Audio
+      description: Drop a PCM WAV attachment here; leave exactly one GitHub attachment link. / 在此拖入 WAV 附件，保留一个链接。
+      placeholder: https://github.com/user-attachments/files/123456/my-voice.wav
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: Your own category or tag. No fixed list. / 自由填写分类，无固定列表。
+      placeholder: gentle / funny / 自定义
+  - type: textarea
+    id: license
+    attributes:
+      label: License
+      description: State the actual reuse license or permission terms. Do not claim rights you do not hold. / 填写真实授权条款。
+      placeholder: "CC0-1.0 (only if you own the recording and can dedicate it), or another explicit license with a link and any attribution requirements."
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Original creation, authorized source URL, tools used, and required attribution. No private proof or personal data. / 原创说明、授权来源或工具及署名要求。
+      placeholder: "Original synthesis by me; no sampled recordings or identifiable voice."
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights confirmation
+      options:
+        - label: I have the right to share this audio under the stated license, including consent for any identifiable person's voice. It contains no private information.
+          required: true

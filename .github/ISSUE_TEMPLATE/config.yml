@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: DingDongBuddy app bugs and feature requests
+    url: https://github.com/JevonsCode/DingDongBuddy/issues
+    about: This repository is for community audio, not client support.
