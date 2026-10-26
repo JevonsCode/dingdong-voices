@@ -2,7 +2,7 @@
 
 Browse and download short notification sounds at [the DingDong voice library](https://xn--8ovp9s.xn--m8txu.com/DingDongBuddy/voices/).
 
-This repository stores submissions as GitHub Issues. The repository name is not a separately deployed `/dingdong-voices/` website.
+This repository stores submissions as GitHub Issues. The `/dingdong-voices/` compatibility page redirects to the canonical DingDong voice library above.
 
 ## Submit a voice
 
