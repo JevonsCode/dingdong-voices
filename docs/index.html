@@ -1,2 +1,47 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DingDong 声音库</title><link rel="canonical" href="https://xn--8ovp9s.xn--m8txu.com/DingDongBuddy/voices/"><meta http-equiv="refresh" content="0;url=https://xn--8ovp9s.xn--m8txu.com/DingDongBuddy/voices/"></head><body><p>声音库已集中到 DingDong 官网。<a href="https://xn--8ovp9s.xn--m8txu.com/DingDongBuddy/voices/">打开声音库</a></p></body></html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="试听、下载和安装 DingDong 社区提示音。">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; media-src blob: https://github.com https://objects.githubusercontent.com https://github-production-user-asset-6210df.s3.amazonaws.com; img-src 'self' https://xn--8ovp9s.xn--m8txu.com; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>声音库 · DingDong</title>
+<link rel="icon" href="https://xn--8ovp9s.xn--m8txu.com/DingDongBuddy/assets/dingdong-icon.png">
+<link rel="stylesheet" href="./voices.css?v=4deca55f9654f83c">
+<script type="module" src="./voices.js?v=0ac370b772f55700"></script>
+</head>
+<body>
+<header class="site-header voices-header">
+  <a class="brand" href="https://xn--8ovp9s.xn--m8txu.com/DingDongBuddy/"><img src="https://xn--8ovp9s.xn--m8txu.com/DingDongBuddy/assets/dingdong-icon.png" alt=""><span>DingDong</span></a>
+  <nav aria-label="导航"><a href="https://xn--8ovp9s.xn--m8txu.com/DingDongBuddy/">首页</a><a href="https://github.com/JevonsCode/dingdong-voices/issues/new?template=voice.yml" target="_blank" rel="noopener noreferrer">投稿声音 ↗</a></nav>
+</header>
+<main class="voices-main">
+  <div class="voices-heading"><h1>声音库 <span class="beta-badge">Beta</span></h1><span class="heading-note">社区声音 · 最长 3 秒</span></div>
+  <section id="catalog" aria-label="社区声音">
+    <div class="filters">
+      <label class="search-field"><span class="sr-only">搜索声音</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.7" cy="10.7" r="6.2"></circle><path d="m15.3 15.3 4.1 4.1"></path></svg><input id="search" type="search" placeholder="搜索声音" maxlength="160"></label>
+      <details class="filter-menu" id="category-menu">
+        <summary aria-haspopup="menu" aria-expanded="false" aria-label="分类：全部分类"><span id="category-value">全部分类</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></summary>
+        <div class="filter-options" id="category-options" role="menu" aria-label="分类"></div>
+      </details>
+      <details class="filter-menu" id="sort-menu">
+        <summary aria-haspopup="menu" aria-expanded="false" aria-label="排序：最新投稿"><span id="sort-value">最新投稿</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></summary>
+        <div class="filter-options" id="sort-options" role="menu" aria-label="排序"></div>
+      </details>
+      <button id="refresh" class="icon-button" type="button" aria-label="刷新" title="刷新"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 8a7.5 7.5 0 0 0-13-2L4 8m0-4v4h4M5 16a7.5 7.5 0 0 0 13 2l2-2m0 4v-4h-4"></path></svg></button>
+    </div>
+    <p id="status" role="status" aria-live="polite">正在加载声音…</p>
+    <div id="cards" class="voice-list" aria-busy="true"></div>
+    <button id="load-more" class="text-button" type="button" hidden>加载更多</button>
+  </section>
+  <details class="submission-section"><summary>安装遇到问题？</summary><p>需要支持声音库的新版 DingDong。也可以下载 WAV 后导入，或复制链接到社区声音中查找。</p></details>
+  <details class="submission-section"><summary>制作和投稿</summary><p>提交最长 3 秒、5 MiB 以内的 PCM WAV，并填写真实来源与授权信息。</p><button id="copy-prompt" class="text-button" type="button">复制制作要求</button><span id="prompt-status" role="status"></span><pre id="agent-prompt">帮我制作一条 DingDong 提示音，风格和声音：[填写]。
+制作实际时长不超过 3 秒、大小不超过 5 MiB 的 PCM WAV，单声道或双声道。检查真实格式、时长和音量，不要只改扩展名。
+向 JevonsCode/dingdong-voices 提交 Issue，填写 Description、Audio、Category、License、Source 和 Rights confirmation。声音名称作为标题，提供真实来源与权利说明，不虚构授权。
+把 WAV 拖入 GitHub Issue 编辑框上传，保留附件链接。发布前让我确认内容；投稿发布后直接显示，无需审核标签。需要付费或消耗模型额度时，先取得我的同意。</pre></details>
+</main>
+<footer class="voices-footer"><span>DingDong · 社区声音</span><a href="https://github.com/JevonsCode/dingdong-voices/issues/new?template=report.yml" target="_blank" rel="noopener noreferrer">反馈 / 举报 ↗</a></footer>
+<dialog id="voice-details"><div class="dialog-heading"><h2 id="details-title"></h2><button id="close-details" class="icon-button" type="button" aria-label="关闭" title="关闭"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div><div id="details-body"></div><a id="details-issue" class="text-button" target="_blank" rel="noopener noreferrer">查看投稿 ↗</a></dialog>
+<dialog id="manual-install"><div class="dialog-heading"><h2>安装声音</h2><button id="close-manual-install" class="icon-button" type="button" aria-label="关闭" title="关闭"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div><p>复制链接，在 DingDong 设置的社区声音里粘贴并安装。</p><button id="copy-install-link" class="text-button" type="button">复制链接</button> <span id="install-copy-status" role="status"></span></dialog>
+</body>
+</html>
