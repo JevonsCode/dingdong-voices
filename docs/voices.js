@@ -1,4 +1,4 @@
-import {API,parseIssue,verifyAndDownload,voiceInstallUrl,fetchCurrentVoice,isGitHubAttachment,supportsDirectInstall} from './catalog-core.mjs?v=bd1ded76cd2aeca0';
+import {API,parseIssue,verifyAndDownload,voiceInstallUrl,fetchCurrentVoice,isGitHubAttachment,supportsDirectInstall} from './catalog-core.mjs?v=6f4d48ca0fa667f4';
 const $ = id => document.getElementById(id);
 const development = new URLSearchParams(window.location.search).get('app') === 'dev';
 if (development) document.querySelector('.heading-note').textContent = 'DEV 预览 · 最长 3 秒';
