@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="试听、下载和安装 DingDong 社区提示音。">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; media-src blob: https://github.com https://objects.githubusercontent.com https://github-production-user-asset-6210df.s3.amazonaws.com; img-src 'self' https://xn--8ovp9s.xn--m8txu.com; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://xn--8ovp9s.xn--m8txu.com; style-src 'self' 'unsafe-inline' https://xn--8ovp9s.xn--m8txu.com; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; media-src blob: https://github.com https://objects.githubusercontent.com https://github-production-user-asset-6210df.s3.amazonaws.com; img-src 'self' https://xn--8ovp9s.xn--m8txu.com; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>声音库 · DingDong</title>
 <link rel="icon" href="https://xn--8ovp9s.xn--m8txu.com/DingDongBuddy/assets/dingdong-icon.png">
-<link rel="stylesheet" href="./voices.css?v=4deca55f9654f83c">
-<script type="module" src="./voices.js?v=0ac370b772f55700"></script>
+<link rel="stylesheet" href="./voices.css?v=b4a7a47d82acfb6e">
+<script type="module" src="./voices.js?v=e31d750193175214"></script>
 </head>
 <body>
 <header class="site-header voices-header">
@@ -40,8 +40,9 @@
 向 JevonsCode/dingdong-voices 提交 Issue，填写 Description、Audio、Category、License、Source 和 Rights confirmation。声音名称作为标题，提供真实来源与权利说明，不虚构授权。
 把 WAV 拖入 GitHub Issue 编辑框上传，保留附件链接。发布前让我确认内容；投稿发布后直接显示，无需审核标签。需要付费或消耗模型额度时，先取得我的同意。</pre></details>
 </main>
-<footer class="voices-footer"><span>DingDong · 社区声音</span><a href="https://github.com/JevonsCode/dingdong-voices/issues/new?template=report.yml" target="_blank" rel="noopener noreferrer">反馈 / 举报 ↗</a></footer>
+<footer class="voices-footer"><span>DingDong · 社区声音</span><span style="display:inline-flex;align-items:center;gap:14px;flex-wrap:wrap;"><a href="https://github.com/JevonsCode/dingdong-voices" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://github.com/JevonsCode/dingdong-voices/issues/new?template=report.yml" target="_blank" rel="noopener noreferrer">反馈 / 举报 ↗</a><a href="https://xn--8ovp9s.xn--m8txu.com/" data-ydys-badge>有点.意思.com</a></span></footer>
 <dialog id="voice-details"><div class="dialog-heading"><h2 id="details-title"></h2><button id="close-details" class="icon-button" type="button" aria-label="关闭" title="关闭"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div><div id="details-body"></div><a id="details-issue" class="text-button" target="_blank" rel="noopener noreferrer">查看投稿 ↗</a></dialog>
 <dialog id="manual-install"><div class="dialog-heading"><h2>安装声音</h2><button id="close-manual-install" class="icon-button" type="button" aria-label="关闭" title="关闭"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></button></div><p>复制链接，在 DingDong 设置的社区声音里粘贴并安装。</p><button id="copy-install-link" class="text-button" type="button">复制链接</button> <span id="install-copy-status" role="status"></span></dialog>
+<script src="https://xn--8ovp9s.xn--m8txu.com/ydys-badge.js" defer></script>
 </body>
 </html>
