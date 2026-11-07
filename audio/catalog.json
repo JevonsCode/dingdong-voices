@@ -302,6 +302,7 @@
     "duration": 2.3763265,
     "sha256": "eacd5ba7df00375159f942513390766dda752851459070555e6176142c8cd370",
     "bytes": 104840,
-    "rightsStatus": "Original synthesis; TTS via Microsoft Edge neural voices. No third-party recording sampled."
+    "rightsStatus": "Original synthesis; TTS via Microsoft Edge neural voices. No third-party recording sampled.",
+    "issueNumber": 29
   }
 ]
