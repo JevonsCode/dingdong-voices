@@ -1,0 +1,132 @@
+{
+  "kind": "dingdong-random-queue-call",
+  "title": "排队叫号",
+  "min": 150,
+  "max": 999,
+  "phrase": "请{n}号",
+  "mode": "random-each-play",
+  "repoSamples": [
+    {
+      "n": 150,
+      "file": "150.wav",
+      "bytes": 103080,
+      "sha256": "cc49c4dd3e91f8613e833a9cc66743d12cffc10d4fa19d933dd463d6ef44ceec"
+    },
+    {
+      "n": 200,
+      "file": "200.wav",
+      "bytes": 74028,
+      "sha256": "c8bffd2b2372c6ac0488d1feb0fdb63a872077b0bae55960a0ba0d3966e867ef"
+    },
+    {
+      "n": 250,
+      "file": "250.wav",
+      "bytes": 103960,
+      "sha256": "617aac3e7a0199d7f67c954211ebd543576efa7ff00ffd0644b34c1694b8605e"
+    },
+    {
+      "n": 300,
+      "file": "300.wav",
+      "bytes": 74028,
+      "sha256": "6afee5586dc96ccacf5f78589caaefaf3dfadc11b7db135569b65d4fb5ee083e"
+    },
+    {
+      "n": 350,
+      "file": "350.wav",
+      "bytes": 103960,
+      "sha256": "5cefb2fc9ff508f251c67bddd84d95f748201906f8bd2725a68fd2be4ab77ec2"
+    },
+    {
+      "n": 400,
+      "file": "400.wav",
+      "bytes": 74908,
+      "sha256": "13f9963f316aa3a7287a31230bc3300887e6624703c10adc3aa76e416a1d99ee"
+    },
+    {
+      "n": 420,
+      "file": "420.wav",
+      "bytes": 104840,
+      "sha256": "eacd5ba7df00375159f942513390766dda752851459070555e6176142c8cd370"
+    },
+    {
+      "n": 450,
+      "file": "450.wav",
+      "bytes": 104840,
+      "sha256": "5cc4b4fb54d9855194efa037cb9c99bca38be5b9577529c9e711acbc85fb49c3"
+    },
+    {
+      "n": 500,
+      "file": "500.wav",
+      "bytes": 74028,
+      "sha256": "b1419eae43c7d25e13c0ee95806e6771e4abb30b21bab90ba4d1603bd36df60d"
+    },
+    {
+      "n": 550,
+      "file": "550.wav",
+      "bytes": 103960,
+      "sha256": "d804402cca13aa83fa9e993b68ed39991ebf615d14f4e282f2c45551a9258a59"
+    },
+    {
+      "n": 600,
+      "file": "600.wav",
+      "bytes": 74028,
+      "sha256": "0c20365a0b4a8ccffbcd2e1e0f5277f7611dc909cf0f9e4aee5f5a2639e9dbf0"
+    },
+    {
+      "n": 650,
+      "file": "650.wav",
+      "bytes": 103960,
+      "sha256": "c20db3bd4c284c9de9f213667eaf373b558455a93d1d1ae5d6520a4ac0bb7f38"
+    },
+    {
+      "n": 700,
+      "file": "700.wav",
+      "bytes": 75348,
+      "sha256": "4e72b243442f8a438aa7d6a0e7bc5b54aa10875b06e06c6f01b06dcf5d1fa145"
+    },
+    {
+      "n": 750,
+      "file": "750.wav",
+      "bytes": 105280,
+      "sha256": "630e22bd2287b36ec9a03f6f549c20c2ee0e3b03672a71f772447ef9ebc07c31"
+    },
+    {
+      "n": 800,
+      "file": "800.wav",
+      "bytes": 73148,
+      "sha256": "364ffd84e8787bb2a89c7a1b3d8df8e17109f5444790bf49e65ebbf22ce498cc"
+    },
+    {
+      "n": 850,
+      "file": "850.wav",
+      "bytes": 103080,
+      "sha256": "5bd66988046a379dbaef1a6624884418fa11f2631d69040f2534aeb745b2fac4"
+    },
+    {
+      "n": 871,
+      "file": "871.wav",
+      "bytes": 117166,
+      "sha256": "e0dc7cdb9e2f1e7f70f8b7d0a083ae55571b7e769159942e1d75c90159b7f47d"
+    },
+    {
+      "n": 900,
+      "file": "900.wav",
+      "bytes": 73588,
+      "sha256": "aca159232241e2713d08174c359f50295983955f3890e451f01b41b3112cf792"
+    },
+    {
+      "n": 950,
+      "file": "950.wav",
+      "bytes": 103520,
+      "sha256": "7d2863a65d3bece34b32f200510508931c0510afcfa5c1efcf74debfbfefe1aa"
+    },
+    {
+      "n": 999,
+      "file": "999.wav",
+      "bytes": 116286,
+      "sha256": "dfa7a4e56c72b6a510c3005494e202722c1db2d26cb291260f7b5478e7fb31cd"
+    }
+  ],
+  "fullPackNote": "Full 850 clips (150–999) are published as a GitHub Release asset queue-call-150-999.zip. The DingDong desktop app can synthesize any number from bundled fragments.",
+  "fragments": "../queue-call-fragments/"
+}
