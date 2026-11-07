@@ -292,5 +292,16 @@
     "bytes": 259564,
     "rightsStatus": "Original synthesis; TTS via Microsoft Edge neural voices. No third-party recording sampled.",
     "issueNumber": 27
+  },
+  {
+    "slug": "queue-call-420",
+    "title": "排队叫号 · 请四百二十号",
+    "source": "Original synthesis for DingDongBuddy (PA ding + Microsoft Edge neural TTS zh-CN-XiaoxiaoNeural fragments concatenated). Part of the 150–999 queue-call series.",
+    "description": "餐厅/医院排队叫号风格：叮一声后播报「请四百二十号」。完整系列覆盖 150–999；桌面端选「排队叫号」每次随机一个号码；官网试听同样每次随机。本条为可安装的示例片（420号）。",
+    "category": "搞怪声音",
+    "duration": 2.3763265,
+    "sha256": "eacd5ba7df00375159f942513390766dda752851459070555e6176142c8cd370",
+    "bytes": 104840,
+    "rightsStatus": "Original synthesis; TTS via Microsoft Edge neural voices. No third-party recording sampled."
   }
 ]
