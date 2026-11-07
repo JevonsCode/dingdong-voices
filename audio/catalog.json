@@ -284,7 +284,7 @@
   {
     "slug": "ai-callback-code",
     "title": "AI叫你写代码",
-    "source": "Original synthesis for DingDongBuddy (Microsoft Edge neural TTS zh-CN-YunxiaNeural). No chirp SFX; spoken line includes 叫你来写代码.",
+    "source": "https://github.com/JevonsCode/dingdong-voices/issues/27",
     "description": "Agent 催你回工位写代码的提示音：你的 AI 叫你来写代码了。无叽叽叽音效、无随机号码（号码请用「排队叫号」）。",
     "category": "搞怪声音",
     "duration": 2.2791836734693875,
