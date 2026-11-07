@@ -280,5 +280,16 @@
     "bytes": 95930,
     "rightsStatus": "No open license independently verified; underlying rights remain with their owners",
     "issueNumber": 24
+  },
+  {
+    "slug": "ai-callback-code",
+    "title": "叽叽叽 · AI叫你写代码",
+    "source": "Original synthesis for DingDongBuddy (chirp SFX + Microsoft Edge neural TTS zh-CN-YunxiaNeural). Sample code number 871 from the 150–999 range.",
+    "description": "搞怪数码叽叽叽提示音：你的 AI 叫你回来写代码了。本条示例读出随机码 871（设计范围 150–999）；适合 Agent 催你回工位写代码时用。",
+    "category": "搞怪声音",
+    "duration": 2.9420181,
+    "sha256": "dd139df48d014cdeeb9791e6150c9323c9021d97dc63cda32716541002719a63",
+    "bytes": 259564,
+    "rightsStatus": "Original synthesis; TTS via Microsoft Edge neural voices. No third-party recording sampled."
   }
 ]
